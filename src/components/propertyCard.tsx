@@ -47,13 +47,13 @@ const propertyCard: React.FC = () => {
 
   const getLogo = (type: string) => {
     switch (type) {
-      case "Bungalow":
+      case "bungalow":
         return Bungalow;
-      case "Toyota":
+      case "cottage":
         return Cottage;
-      case "Lamborghini":
+      case "flat":
         return Flat;
-      case "Bugatti":
+      case "terraced":
         return Terraced;
       default:
         return ""; // Default case if no logo is found
@@ -94,8 +94,8 @@ const propertyCard: React.FC = () => {
         <CardBody>
                    <div className="flex flex-col items-center">
           <img
-              src={getLogo(data.property)} // Get logo based on property
-              alt={`${data.property} logo`}
+              src={getLogo(data.type)} // Get logo based on property
+              alt={`${data.type} logo`}
               className="w-40 h-40 mb-4"
             />
             <h1 className="text-3xl font-bold"> {data.type}</h1>

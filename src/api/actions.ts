@@ -40,10 +40,10 @@ export const getpropertyData = async (property: string): Promise<propertyData> =
       .get(`${API_URL}/property/${property}`)
       .then((res) => {
         resolve({
-          type: property,
-          buyingprice: res.data.temperature,
-          sellingprice: res.data.humidity,
-          rentprice: res.data.wind,
+          type: res.data.type,
+          buyingprice: res.data.buyingprice,
+          sellingprice: res.data.sellingprice,
+          rentprice: res.data.rentprice,
         });
       })
       .catch((error) => {
