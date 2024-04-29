@@ -1,3 +1,39 @@
+# Frontend Property App
+
+## Overview
+
+Welcome to the frontend repository of our property app! This project aims to provide users with a seamless experience in searching for properties and viewing relevant details including images, types, selling prices, buying prices, and rent prices.
+
+## Implementation Status
+
+The creation of the property files for the frontend has been successfully implemented. I have ensured that necessary files such as images and User Interface (UI) designs have been incorporated. Now, when a property is called by the user, the app displays the correct image and corresponding data.
+
+## Features
+
+- Search for properties based on various criteria.
+- Display detailed information about each property, including images, types, selling prices, buying prices, and rent prices.
+- User-friendly interface for smooth navigation.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+
+## Getting Started
+
+To get started with the project, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
+4. Explore the app and enjoy!
+
+## Pre Instructions
+The below instructions contains steps needed to implement the UI of the property app.
+
+
 # Sample React App with Next UI
 
 This project, `sample-react-app`, is a modern, responsive front-end application built using [Vite](https://vitejs.dev/) and [Next UI](https://nextui.org/react) for React. It's designed to connect to a custom weather API to fetch and display weather data dynamically.
